@@ -23,3 +23,7 @@ def count(request):
 					'text': user_text,
 					#'wordict': word_dict,#有了sorted之后这个可以注释掉了
 					'sorted': sorted_dict})
+
+
+def about(request):
+	return render(request, 'about.html')
